@@ -6,7 +6,7 @@ import os
 import random
 from dotenv import load_dotenv
 
-TOKEN = "OTg3NDI2Njk4ODAwODEyMTEz.GnB-tu.iDFVr456Tv35jyjflHXrk5tNNIqPfu0BrpTzMQ"
+TOKEN = "TOKEN"
 client = discord.Client()
 
 @client.event
