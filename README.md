@@ -1,5 +1,6 @@
 # Discord-Bot-Project
 </br>A Discord bot built with Python that allows user to check the price of a stock/cryptocurrency </br>
+
 Utilizes the foundational functions in a web scraper I built --> </br> https://github.com/tszwong/Web-Scraper-Project-for-Stock-and-Crypto-Prices </br></br>
 Command to run --> $bot Price Check (#insert ticker/symbol here)
 
