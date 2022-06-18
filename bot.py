@@ -4,28 +4,28 @@
 import discord
 import os
 import random
+from webScrapFunctions import *
 from dotenv import load_dotenv
 
+
 TOKEN = "TOKEN"
+GUILD = "GUILD"
 client = discord.Client()
 
 @client.event
 async def on_ready():
-    print(f"{client.user} has connected to Discord.")
+    print(f"{client.user} enabled.")  # display message in console when connected
 
 @client.event
 async def on_message(message):
+    # prevents bot from replying to itself and causing endless loop
     if message.author == client.user:
         return
 
-    if message.content.startswith("$flipcoin"):
+    call = "$bot Price Check "
+    if call in message.content:
+        before_call, call, ticker = message.content.partition(call)
+        await message.channel.send(initiate(ticker))
 
-        random_num = random.randint(0,1)
-        choice = None
-
-        if random_num == 0: choice = "heads"
-        elif random_num == 1: choice = "tails"
-
-        await message.channel.send(choice)
 
 client.run(TOKEN)
