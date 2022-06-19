@@ -5,7 +5,7 @@
 Utilizes the foundational functions in a web scraper I built --> </br> https://github.com/tszwong/Web-Scraper-Project-for-Stock-and-Crypto-Prices </br></br>
 Command to run --> $bot Price Check (#insert ticker/symbol here)
 
-2. F1 Bot, uses an api that will display the results of the most recent race to the user </br>
+2. F1 Bot, uses an api that will display the results of the most recent race to the user 
 </br>
 
 Output Sample
