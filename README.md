@@ -10,5 +10,5 @@ F1 Bot, uses an api that will display the results of the most recent race to the
 
 Output Sample
 ----
-1. stock bot
+1. stock bot </br>
 ![Screen Shot 2022-06-17 at 11 18 33 PM](https://user-images.githubusercontent.com/95050658/174420810-4e64914d-254f-4bba-90d1-fe6446cd143b.png)
