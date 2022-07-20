@@ -4,8 +4,6 @@ A Discord bot built with Python that allows user to check the price of a stock/c
 
 Utilizes the foundational functions in a web scraper I built --> </br> https://github.com/tszwong/Web-Scraper-Project-for-Stock-and-Crypto-Prices </br></br>
 Command to run --> $bot Price Check (#insert ticker/symbol here) </br>
-
-F1 Bot, uses an api that will display the results of the most recent race to the user 
 </br>
 
 Output Sample
